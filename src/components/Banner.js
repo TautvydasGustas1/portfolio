@@ -25,7 +25,7 @@ const useStyles = makeStyles(theme => ({
   },
   scrollDownButton: {
     position: "absolute",
-    bottom: "35px",
+    bottom: "55px",
     width: "100%",
     textAlign: "center",
   },

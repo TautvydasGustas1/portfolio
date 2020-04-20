@@ -1,8 +1,8 @@
 module.exports = {
-  pathPrefix: "/portfolioNew",
+  pathPrefix: "/portfolio",
   siteMetadata: {
     title: `Portfolio`,
-    description: `Tauvydo Gusto portfolio website`,
+    description: `Tautvydo Gusto portfolio website`,
     author: `Tautvydas Gustas`,
   },
   plugins: [

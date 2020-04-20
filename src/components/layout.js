@@ -15,7 +15,13 @@ import Header from "./header"
 import "./layout.css"
 import { Container, CssBaseline } from "@material-ui/core"
 
-const Layout = ({ children, projectRef, aboutRef, skillsRef }) => {
+const Layout = ({
+  children,
+  projectRef,
+  aboutRef,
+  skillsRef,
+  navOFF = false,
+}) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -42,12 +48,16 @@ const Layout = ({ children, projectRef, aboutRef, skillsRef }) => {
     <>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Header
-          projectRef={projectRef}
-          aboutRef={aboutRef}
-          skillsRef={skillsRef}
-          siteTitle={data.site.siteMetadata.title}
-        />
+        {navOFF ? (
+          ""
+        ) : (
+          <Header
+            projectRef={projectRef}
+            aboutRef={aboutRef}
+            skillsRef={skillsRef}
+            siteTitle={data.site.siteMetadata.title}
+          />
+        )}
         <Container disableGutters={true} maxWidth={false}>
           <main className="background-main">{children}</main>
           <Footer />
@@ -59,6 +69,7 @@ const Layout = ({ children, projectRef, aboutRef, skillsRef }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  navOFF: PropTypes.bool,
 }
 
 export default Layout
