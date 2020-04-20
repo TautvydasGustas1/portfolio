@@ -620,3 +620,28 @@ pre tt:after {
     font-size: 100%;
   }
 }
+.About-section {
+  margin-top: 1em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.projectBox {
+  border: 1px solid grey;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.containerInfo {
+  background-color: rgba(0, 0, 0, 0);
+  border-top: 1px solid;
+}
+
+.containerInfo_summary {
+  margin: 2% 0 2% 0;
+}
+
+.background-main {
+  background-color: #c9d0e752;
+}
