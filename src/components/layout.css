@@ -645,3 +645,7 @@ pre tt:after {
 .background-main {
   background-color: #c9d0e752;
 }
+
+#___gatsby {
+  overflow-x: hidden;
+}

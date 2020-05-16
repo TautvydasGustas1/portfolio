@@ -38,6 +38,7 @@ const Projects = ({ projectRef }) => {
                 techUsed={project.techUsed}
                 liveDemo={project.liveDemo}
                 repository={project.repository}
+                borderRadius={project.borderRadius}
               />
             </Grid>
           ))}

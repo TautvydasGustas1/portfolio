@@ -40,7 +40,15 @@ const useStyles = makeStyles(theme => ({
 
 //#1a72be;
 
-const Project = ({ name, image, summary, techUsed, repository, liveDemo }) => {
+const Project = ({
+  name,
+  image,
+  summary,
+  techUsed,
+  repository,
+  liveDemo,
+  borderRadius,
+}) => {
   const classes = useStyles()
   return (
     <Fragment>
@@ -50,6 +58,7 @@ const Project = ({ name, image, summary, techUsed, repository, liveDemo }) => {
           className={classes.mediaCard}
           image={image}
           title={name}
+          style={{ borderRadius: borderRadius }}
         />
         <CardContent className={classes.cardContent}>
           <Typography gutterBottom variant="h5" component="h2">
