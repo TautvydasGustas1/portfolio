@@ -33,7 +33,7 @@ const projectsData = [
     liveDemo: "https://ltitjobstatistics.herokuapp.com/",
     techUsed: "React, Material-ui, Puppeter, Node.js, MongoDB, Express",
     summary:
-      "Two man made website for analyzation of popular trends in Lithuanian IT job market",
+      "Website for analyzation of popular trends in Lithuanian IT job market",
     borderRadius: "10%",
   },
   {
