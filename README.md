@@ -1,18 +1,15 @@
-# MyMoviesNew
-A website that lets to see trending, popular movies, write reviews, and also rate your seen movies.
-
-![](picture2.png)  
-![](header.png)  
-![](picture.png)  
-
+# Portfolio
+My personal portfolio website.
 
 
 # Link to live version 
-https://tranquil-headland-23548.herokuapp.com/
+https://tautvydasgustas1.github.io/portfolio/
 
 # For this project I used:
 
-Made with React, Gatsby, Material-ui
+* React
+* Gatsby 
+* Material-ui
 
 
 ## Installation
