@@ -9,7 +9,7 @@ const projectsData = [
     name: "MyMovies",
     image: MyMoviesImage,
     repository: "https://github.com/TautvydasGustas1/MyMoviesNew",
-    liveDemo: "https://tranquil-headland-23548.herokuapp.com",
+    liveDemo: "https://mymoviesnew.herokuapp.com/",
     techUsed: "React, Redux, Express.js, MongoDB",
     summary:
       "Website where people can review, rate and see other users rated movies",
